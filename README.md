@@ -40,8 +40,8 @@ names(raw.data) <- c("Category", "Message")
 raw.data[1,]
 ```  
 ---
-Category : "ham"
-Massage : "Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat..."
+Category: "ham"
+Massage: "Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat..."
 ---
 <p>&nbsp;</p>
 <p>&nbsp;</p>
