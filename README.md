@@ -39,11 +39,12 @@ Let's print the heading and let's add headers to the two columns of information.
 names(raw.data) <- c("Category", "Message")
 raw.data[1,]
 ```  
----
+
 Category | Massage
-<p>&nbsp;</p>
- ham     | Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...
----
+--- | --- 
+ham | Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...
+
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 Let's sample the data import phase.It is to randomize our data using the sample() command. Just in case the data are not stored in a random distribution, this will help to ensure that we are dealing with a random draw from our data. The set.seed() command is simply there to ensure more consistent replication
