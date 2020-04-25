@@ -130,8 +130,8 @@ table(sms.predictions, sms.raw.test$Category)
 ```
 model prediction | ham | spam 
 --- | --- | --- 
- | 708 | 7
-  | 11 | 108
+ .| 708 | 7
+ . | 11 | 108
   
 <p>&nbsp;</p>
 This table should be read from left to right: The model classified 708 ham messages correctly as ham, and 7 ham messages incorrectly as spam. The model incorrectly classified 11spam messages as ham, but 108 spam messages correctly as spam.
