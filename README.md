@@ -41,6 +41,7 @@ raw.data[1,]
 ```  
 ---
 Category | Massage
+<p>&nbsp;</p>
  ham     | Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...
 ---
 <p>&nbsp;</p>
