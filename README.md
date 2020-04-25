@@ -2,7 +2,6 @@
 title: "Spam Text Message Classification with R"
 author: "Tarek Hassan"
 date: "4/25/2020"
-output: html_document
 ---
 
 **We'll construct a spam filter which we can use to classify text messages as ham or spam -- that is, legitimate versus junk mail messages.
@@ -40,11 +39,10 @@ Let's print the heading and let's add headers to the two columns of information.
 names(raw.data) <- c("Category", "Message")
 raw.data[1,]
 ```  
-
-Category | Message
---- | --- | ---
-ham | Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...
-
+---
+Category : "ham"
+Massage : "Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat..."
+---
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 Let's sample the data import phase.It is to randomize our data using the sample() command. Just in case the data are not stored in a random distribution, this will help to ensure that we are dealing with a random draw from our data. The set.seed() command is simply there to ensure more consistent replication
